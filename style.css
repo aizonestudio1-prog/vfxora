@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #0b0b12;
+  color: white;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #aaa;
+  font-size: 18px;
+}
+
+textarea {
+  width: 90%;
+  max-width: 700px;
+  height: 150px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: 1px solid #444;
+  background: #171722;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 10px;
+  background: #7c3aed;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
