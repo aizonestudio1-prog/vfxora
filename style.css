@@ -1,15 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  padding: 40px 20px;
   font-family: Arial, sans-serif;
-  text-align: center;
-  background: #0b0b12;
+  background: #080812;
   color: white;
+  min-height: 100vh;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 h1 {
   font-size: 42px;
   margin-bottom: 10px;
+  background: linear-gradient(90deg, #00e5ff, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -39,4 +47,5 @@ button {
   color: white;
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
