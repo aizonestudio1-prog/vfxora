@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VFXora AI</title>
+</head>
+
+<body>
+
+  <h1>VFXora AI</h1>
+
+  <p>Create amazing videos and images with AI</p>
+
+  <textarea
+    id="prompt"
+    placeholder="Describe your idea..."
+  ></textarea>
+
+  <br><br>
+
+  <button onclick="generate()">✨ Generate</button>
+
+  <div id="result"></div>
+
+  <script>
+    function generate() {
+      const prompt = document.getElementById("prompt").value;
+
+      if (!prompt.trim()) {
+        alert("Please enter a prompt");
+        return;
+      }
+
+      document.getElementById("result").innerHTML =
+        "<h2>Generation started...</h2><p>" +
+        prompt +
+        "</p>";
+    }
+  </script>
+
+</body>
+</html>
